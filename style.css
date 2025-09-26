@@ -51,3 +51,41 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Responsividade para celular */
+@media (max-width: 768px) {
+    body {
+    font-size: 16px;
+    }
+
+    header {
+    padding: 15px;
+    }
+
+    section {
+    padding: 20px 10px;
+    }
+
+    h1 {
+    font-size: 24px;
+    }
+
+    h2 {
+    font-size: 20px;
+    }
+
+    .btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    }
+
+    .info-card {
+    padding: 15px;
+    }
+
+    ul {
+    padding-left: 20px;
+    }
+}
